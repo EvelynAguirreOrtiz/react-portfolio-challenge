@@ -1,5 +1,6 @@
 import React from "react";
-import Navigation from "../Navigation";
+// import Navigation from "../Navigation";
+import PageRender from "../PageRender";
 
 function Header() {
 	return (
@@ -7,7 +8,7 @@ function Header() {
 			<h2>
 				<a href="/">Evelyn Aguirre</a>
 			</h2>
-			<Navigation></Navigation>
+			<PageRender></PageRender>
 		</header>
 	);
 }
