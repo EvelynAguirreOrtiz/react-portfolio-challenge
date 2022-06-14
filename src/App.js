@@ -2,6 +2,8 @@ import React from "react";
 import Header from "./components/Header";
 import About from "./components/About";
 import Project from "./components/Project";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -11,8 +13,8 @@ function App() {
 			<main>
 				<About></About>
 				<Project></Project>
-				{/* <Resume></Resume> */}
-				{/* <Contact></Contact> */}
+				<Resume></Resume>
+				<Contact></Contact>
 			</main>
 			<Footer></Footer>
 		</div>

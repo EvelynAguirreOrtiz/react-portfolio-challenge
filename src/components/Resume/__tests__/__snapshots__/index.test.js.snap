@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resume component matches snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="my-5"
+  >
+    <h1
+      id="resume"
+    >
+      My Resume
+    </h1>
+    <div
+      class="my-2"
+    >
+      <p>
+        resume info
+      </p>
+    </div>
+  </section>
+</DocumentFragment>
+`;
