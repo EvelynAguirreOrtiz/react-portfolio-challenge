@@ -1,5 +1,5 @@
 import React from "react";
-// import { FaGithub } from "react-icons";
+// import { BsGithub } from "bootstrap-icons";
 
 function Footer() {
 	return (
@@ -24,18 +24,19 @@ function Footer() {
 				<section className="mb-4">
 					<a href="https://github.com/EvelynAguirreOrtiz">
 						<button className="github">
-							<i className="fa-brands fa-github fa-2x"></i>GitHub
-							{/* <FaGithub /> */}
+							<i className="bi bi-github"></i>GitHub
 						</button>
 					</a>
 					<a href="https://www.linkedin.com/in/evelyn-aguirre-5224b56/">
 						<button className="linkedin">
-							<i className="fa-brands fa-linkedin fa-2x"></i>LinkedIn
+							<i className="bi bi-linkedin"></i>LinkedIn
 						</button>
 					</a>
-					<button type="button" className="btn btn-link">
-						Link
-					</button>
+					<a href="https://www.linkedin.com/in/evelyn-aguirre-5224b56/">
+						<button className="linkedin">
+							<i className="bi bi-instagram"></i>LinkedIn
+						</button>
+					</a>
 				</section>
 			</div>
 		</footer>

@@ -6,6 +6,7 @@ import Header from "./components/Header";
 // import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 // import PageRender from "./components/PageRender";
+
 function App() {
 	return (
 		<body>
