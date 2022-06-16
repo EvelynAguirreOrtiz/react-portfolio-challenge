@@ -12,10 +12,10 @@ exports[`Header component matches snapshot 1`] = `
     </h2>
     <nav>
       <ul
-        class="flex-row"
+        className="flex-row"
       >
         <li
-          class="nav-margin"
+          className="nav-margin"
         >
           <a
             data-testid="about"
@@ -25,7 +25,7 @@ exports[`Header component matches snapshot 1`] = `
           </a>
         </li>
         <li
-          class="nav-margin"
+          className="nav-margin"
         >
           <a
             data-testid="portfolio"
@@ -35,7 +35,7 @@ exports[`Header component matches snapshot 1`] = `
           </a>
         </li>
         <li
-          class="nav-margin"
+          className="nav-margin"
         >
           <a
             data-testid="resume"

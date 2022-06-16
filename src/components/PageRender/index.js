@@ -11,16 +11,18 @@ export default function PageRender() {
 
 	// TODO: Add a comment describing the functionality of this method
 	const renderPage = () => {
-		if (currentPage === "About") {
-			return <About />;
-		}
 		if (currentPage === "Portfolio") {
 			return <Project />;
 		}
 		if (currentPage === "Resume") {
 			return <Resume />;
 		}
-		return <Contact />;
+		if (currentPage === "Contact") {
+			return <Contact />;
+		}
+		// if (currentPage === "About") {
+		return <About />;
+		// }
 	};
 
 	const handlePageChange = (page) => setCurrentPage(page);

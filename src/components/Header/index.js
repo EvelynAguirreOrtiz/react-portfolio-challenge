@@ -5,9 +5,9 @@ import PageRender from "../PageRender";
 function Header() {
 	return (
 		<header>
-			<h2>
+			<h1>
 				<a href="/">Evelyn Aguirre</a>
-			</h2>
+			</h1>
 			<PageRender></PageRender>
 		</header>
 	);

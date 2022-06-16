@@ -6,20 +6,12 @@ import Header from "./components/Header";
 // import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 // import PageRender from "./components/PageRender";
-
 function App() {
 	return (
-		<div>
+		<body>
 			<Header></Header>
-			<main>
-				{/* <PageRender></PageRender> */}
-				{/* <About></About>
-				<Project></Project>
-				<Resume></Resume>
-				<Contact></Contact> */}
-			</main>
 			<Footer></Footer>
-		</div>
+		</body>
 	);
 }
 

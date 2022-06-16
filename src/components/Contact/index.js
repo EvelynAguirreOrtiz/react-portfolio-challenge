@@ -40,34 +40,37 @@ function Contact() {
 	};
 
 	return (
-		<section>
+		<main>
 			<h1 data-testid="h1tag">Contact Me</h1>
-			<form id="contact-form" onSubmit={handleSubmit}>
-				<div>
-					<label htmlFor="name">Name:</label>
+			<form className="form-group" id="contact-form" onSubmit={handleSubmit}>
+				<div className="form-box">
+					{/* <label htmlFor="name">Name:</label> */}
 					<input
 						type="text"
 						name="name"
 						defaultValue={name}
 						onBlur={handleChange}
+						placeholder="Your Name"
 					/>
 				</div>
-				<div>
-					<label htmlFor="email">Email Address:</label>
+				<div className="form-box">
+					{/* <label htmlFor="email">Email Address:</label> */}
 					<input
 						type="email"
 						name="email"
 						defaultValue={email}
 						onBlur={handleChange}
+						placeholder="Your Email Address"
 					/>
 				</div>
-				<div>
-					<label htmlFor="message">Message:</label>
+				<div className="form-box">
+					{/* <label htmlFor="message">Message:</label> */}
 					<textarea
 						name="message"
 						rows="5"
 						defaultValue={message}
 						onBlur={handleChange}
+						placeholder="Your Message"
 					/>
 				</div>
 				{errorMessage && (
@@ -79,7 +82,7 @@ function Contact() {
 					Submit
 				</button>
 			</form>
-		</section>
+		</main>
 	);
 }
 

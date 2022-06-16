@@ -7,6 +7,7 @@ function Resume() {
 
 			<div className="my-2">
 				<p>resume info</p>
+				<p>Download my resume [here]</p>
 			</div>
 		</main>
 	);

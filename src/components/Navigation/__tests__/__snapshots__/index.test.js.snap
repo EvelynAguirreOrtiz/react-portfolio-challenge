@@ -4,10 +4,10 @@ exports[`Navigation component matches snapshot 1`] = `
 <DocumentFragment>
   <nav>
     <ul
-      class="flex-row"
+      className="flex-row"
     >
       <li
-        class="nav-margin"
+        className="nav-margin"
       >
         <a
           data-testid="about"
@@ -17,7 +17,7 @@ exports[`Navigation component matches snapshot 1`] = `
         </a>
       </li>
       <li
-        class="nav-margin"
+        className="nav-margin"
       >
         <a
           data-testid="portfolio"
@@ -27,7 +27,7 @@ exports[`Navigation component matches snapshot 1`] = `
         </a>
       </li>
       <li
-        class="nav-margin"
+        className="nav-margin"
       >
         <a
           data-testid="resume"
