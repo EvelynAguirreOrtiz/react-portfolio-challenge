@@ -46,8 +46,8 @@ nav li {
 }
 
 .nav-item {
-	margin-right: calc(3rem);
-	margin-left: calc(3rem);
+	margin-right: calc(2rem);
+	margin-left: calc(2rem);
 }
 
 .nav-link {
@@ -74,27 +74,31 @@ nav li {
 	border-width: 1px;
 	border-radius: 5px;
 	margin: 5px;
-	/* padding: auto; */
+	padding: auto;
 	width: 300px;
 	height: 200px;
-	display: flex;
-	flex-direction: row;
-	/* display: inline-block; */
-	flex-wrap: wrap;
-	/* transition: transform 0.2s; */
+
+	flex: auto;
 }
 
 .project-card {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	/* flex-basis: auto; */
+
 	justify-content: flex-start;
 	padding-top: 20px;
 }
 /* portfolio card */
 
 /* resume */
+.proficiencies {
+	text-align: left;
+}
+
+.proficiencies li {
+	text-decoration: none;
+}
 
 /* contact */
 
@@ -120,12 +124,9 @@ form {
 
 .form-group input,
 .form-group textarea {
-	/* border: transparent; */
-	font-size: 14px;
-	/* font-style: italic; */
-	width: 500px;
-	/* margin: auto; */
-	/* border-radius: 5px; */
+	font-size: 15px;
+	font-weight: bold;
+	width: calc(25rem);
 	border: none;
 	border-bottom: 1px solid;
 }
