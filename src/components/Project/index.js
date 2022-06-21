@@ -18,36 +18,36 @@ function Project() {
 			github: "https://github.com/ArchieDonaho/Search-Watch-Chill.git",
 		},
 		{
-			title: "Project 3",
+			title: "Budget Tracker PWA",
 			description:
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-			link: "https://meet-up-satx.herokuapp.com/",
+			link: "https://desolate-chamber-00936.herokuapp.com/",
 			github:
-				"https://github.com/EvelynAguirreOrtiz/meet-up-satx-utsa-bc-project-2.git",
+				"https://github.com/EvelynAguirreOrtiz/budget-tracker-challenge-utsa-bc-06-2022.git",
 		},
 		{
-			title: "Project 4",
+			title: "Note Taker",
 			description:
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-			link: "https://meet-up-satx.herokuapp.com/",
+			link: "https://guarded-bastion-50474.herokuapp.com/",
 			github:
-				"https://github.com/EvelynAguirreOrtiz/meet-up-satx-utsa-bc-project-2.git",
+				"https://github.com/EvelynAguirreOrtiz/notetaker-challenge-utsa-bc-04-2022.git",
 		},
 		{
-			title: "MProject 5",
+			title: "Weather Dashboard",
 			description:
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-			link: "https://meet-up-satx.herokuapp.com/",
+			link: "https://evelynaguirreortiz.github.io/weather-dashboard-challenge-utsa-bc-03-2022/",
 			github:
-				"https://github.com/EvelynAguirreOrtiz/meet-up-satx-utsa-bc-project-2.git",
+				"https://github.com/EvelynAguirreOrtiz/weather-dashboard-challenge-utsa-bc-03-2022.git",
 		},
 		{
-			title: "Project 6",
+			title: "Work Day Scheduler",
 			description:
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-			link: "https://meet-up-satx.herokuapp.com/",
+			link: "https://evelynaguirreortiz.github.io/work-day-scheduler-challenge-utsa-bc-03-2022/",
 			github:
-				"https://github.com/EvelynAguirreOrtiz/meet-up-satx-utsa-bc-project-2.git",
+				"https://github.com/EvelynAguirreOrtiz/work-day-scheduler-challenge-utsa-bc-03-2022.git",
 		},
 	]);
 
