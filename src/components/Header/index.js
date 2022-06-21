@@ -8,6 +8,7 @@ function Header() {
 			<h1>
 				<a href="/">Evelyn Aguirre</a>
 			</h1>
+			<h4>Web Developer</h4>
 			<PageRender></PageRender>
 		</header>
 	);

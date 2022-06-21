@@ -1,12 +1,8 @@
 * {
 	box-sizing: border-box;
-	/* margin: auto; */
-}
-
-body {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	/* background-color: rgb(145, 147, 150); */
-	text-align: center;
+	margin: auto;
+	font-family: "Montserrat", sans-serif;
+	/* text-align: center; */
 }
 
 main {
@@ -14,50 +10,32 @@ main {
 	max-width: 90%;
 	height: 70%vh;
 	padding: 50px 30px;
+	/* align-items: center; */
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: "Roboto", sans-serif;
-	font-weight: 500;
-	margin: 5px 0;
-	line-height: 1.25;
-}
+/* header */
 
-h1 {
-	font-size: 3rem;
-	text-align: center;
-}
-
-a {
-	/* color: var(--tertiary); */
-	text-decoration: none;
-	font-weight: bold;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-/* header {
-	background: var(--dark);
+header {
+	padding-top: 5vh;
 }
 
 header a {
-	color: var(--light);
-} */
-
-/* nav a:hover {
+	font-size: 3rem;
 	text-decoration: none;
-} */
+}
+
+header h4 {
+	font-size: 1.5rem;
+}
+
+a:hover {
+	text-decoration: none;
+}
 
 .nav {
-	justify-content: center;
+	justify-content: right;
 }
+
 nav li {
 	cursor: pointer;
 }
@@ -68,31 +46,30 @@ nav li {
 }
 
 .nav-item {
-	margin-right: calc(2rem);
-	margin-left: calc(2rem);
+	margin-right: calc(3rem);
+	margin-left: calc(3rem);
 }
 
 .nav-link {
 	font-size: 15px;
+	font-weight: bolder;
 }
 
+/* about */
 .avatar {
 	display: block;
 	margin: auto;
-	max-width: 200px;
-	/* padding: 20vh 0 5vh 0; */
+	max-width: 170px;
+	padding: 10vh 0 5vh 0;
 }
 
-.card-body {
-	/* display: flex; */
-	flex-direction: row;
-	flex-wrap: wrap;
-	flex-basis: auto;
-	justify-content: center;
-	padding-top: 20px;
+.about-me {
+	padding-top: 30px;
 }
 
-.project-1 {
+/* portfolio */
+
+.project-image {
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 5px;
@@ -101,10 +78,35 @@ nav li {
 	width: 300px;
 	height: 200px;
 	display: flex;
+	flex-direction: row;
 	/* display: inline-block; */
 	flex-wrap: wrap;
-	justify-content: center;
 	/* transition: transform 0.2s; */
+}
+
+.project-card {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/* flex-basis: auto; */
+	justify-content: flex-start;
+	padding-top: 20px;
+}
+/* portfolio card */
+
+/* resume */
+
+/* contact */
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* padding: 10vh; */
+}
+
+.input-text {
+	text-align: left;
 }
 
 .form-group input,
@@ -118,18 +120,33 @@ nav li {
 
 .form-group input,
 .form-group textarea {
-	border: 1px solid;
-	display: block;
+	/* border: transparent; */
 	font-size: 14px;
-	font-style: italic;
-	width: 50%;
-	margin: auto;
-	border-radius: 5px;
+	/* font-style: italic; */
+	width: 500px;
+	/* margin: auto; */
+	/* border-radius: 5px; */
+	border: none;
+	border-bottom: 1px solid;
 }
 
-.form-group button {
-	width: auto;
+@media screen and (max-width: 768) {
+	.form-group input,
+	.form-group textarea {
+		width: 400px;
+	}
+}
+@media screen and (max-width: 575) {
+	.form-group input,
+	.form-group textarea {
+		width: 275px;
+	}
+}
+
+form button {
+	margin: auto;
 	border: 1px solid;
+	border-radius: 5px;
 	padding: 10px 20px;
 	margin-top: 10px;
 }
@@ -138,17 +155,18 @@ nav li {
 	padding-bottom: 10px;
 }
 
+/* footer */
 footer {
 	/* margin: auto; */
 	display: flex;
-	justify-content: space-around;
 	flex-wrap: wrap;
 	align-items: center;
-	/* position: fixed; */
 	position: inherit;
-	/* position: static; */
-	padding: 10px 10px 0px 10px;
 	bottom: 0;
-	width: 100%;
-	/* height: 40px; */
+}
+
+.bi {
+	font-size: 30px;
+	margin-right: calc(2rem);
+	margin-left: calc(2rem);
 }

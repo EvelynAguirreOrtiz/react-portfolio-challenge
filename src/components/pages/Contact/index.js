@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { validateEmail } from "../../utils/helpers";
+import { validateEmail } from "../../../utils/helpers";
 
 function Contact() {
 	const [contactForm, setContactForm] = useState({
@@ -41,36 +41,39 @@ function Contact() {
 
 	return (
 		<main>
-			<h1 data-testid="h1tag">Contact Me</h1>
+			<h2 data-testid="h1tag">Contact Me</h2>
 			<form className="form-group" id="contact-form" onSubmit={handleSubmit}>
 				<div className="form-box">
 					{/* <label htmlFor="name">Name:</label> */}
 					<input
+						className="input-text"
 						type="text"
-						name="name"
+						name="Your name"
 						defaultValue={name}
 						onBlur={handleChange}
-						placeholder="Your Name"
+						placeholder="Your Name (required)"
 					/>
 				</div>
 				<div className="form-box">
 					{/* <label htmlFor="email">Email Address:</label> */}
 					<input
+						className="input-text"
 						type="email"
 						name="email"
 						defaultValue={email}
 						onBlur={handleChange}
-						placeholder="Your Email Address"
+						placeholder="Your Email Address (required)"
 					/>
 				</div>
 				<div className="form-box">
 					{/* <label htmlFor="message">Message:</label> */}
 					<textarea
-						name="message"
+						className="input-text"
+						name="Your message"
 						rows="5"
 						defaultValue={message}
 						onBlur={handleChange}
-						placeholder="Your Message"
+						placeholder="Your Message (required)"
 					/>
 				</div>
 				{errorMessage && (

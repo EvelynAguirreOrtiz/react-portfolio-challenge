@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Project component renders 1`] = `
+exports[`Portfolio component renders 1`] = `
 <DocumentFragment>
   <div
     className="card text-center"
@@ -15,22 +15,22 @@ exports[`Project component renders 1`] = `
     >
       <ul>
         <li>
-          Project 1
+          Portfolio 1
         </li>
         <li>
-          Project 2
+          Portfolio 2
         </li>
         <li>
-          Project 3
+          Portfolio 3
         </li>
         <li>
-          Project 4
+          Portfolio 4
         </li>
         <li>
-          Project 5
+          Portfolio 5
         </li>
         <li>
-          Project 6
+          Portfolio 6
         </li>
       </ul>
     </div>

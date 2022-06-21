@@ -1,18 +1,17 @@
 import React, { useState } from "react";
 import Navigation from "../Navigation";
-import About from "../About";
-import Project from "../Project";
-import Resume from "../Resume";
-import Contact from "../Contact";
+import About from "../pages/About";
+import Portfolio from "../pages/Portfolio";
+import Resume from "../pages/Resume";
+import Contact from "../pages/Contact";
 // import Header from "../Header";
 
 export default function PageRender() {
 	const [currentPage, setCurrentPage] = useState("Home");
 
-	// TODO: Add a comment describing the functionality of this method
 	const renderPage = () => {
 		if (currentPage === "Portfolio") {
-			return <Project />;
+			return <Portfolio />;
 		}
 		if (currentPage === "Resume") {
 			return <Resume />;
@@ -20,21 +19,19 @@ export default function PageRender() {
 		if (currentPage === "Contact") {
 			return <Contact />;
 		}
-		// if (currentPage === "About") {
-		return <About />;
-		// }
+		if (currentPage === "About") {
+			return <About />;
+		}
 	};
 
 	const handlePageChange = (page) => setCurrentPage(page);
 
 	return (
 		<div>
-			{/* // TODO: Add a comment describing what we are passing as props */}
 			<Navigation
 				currentPage={currentPage}
 				handlePageChange={handlePageChange}
 			/>
-			{/* // TODO: Add a comment explaining what is happening on the following line */}
 			{renderPage()}
 		</div>
 	);

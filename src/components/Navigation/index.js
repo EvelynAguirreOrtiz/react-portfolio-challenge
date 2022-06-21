@@ -28,7 +28,7 @@ import React from "react";
 function Navigation({ currentPage, handlePageChange }) {
 	return (
 		<nav>
-			<ul className="nav flex-row">
+			<ul className="nav flex-row nav-tabs">
 				<li className="nav-item">
 					<a
 						href="#about"
