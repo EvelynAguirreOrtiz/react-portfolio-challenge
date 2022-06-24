@@ -56,14 +56,14 @@ function Project() {
 			{projects.map((project, i) => (
 				<div className="card mb-3">
 					<div className="row g-0">
-						<div className="col-md-4">
+						<div className="col-md-5">
 							<img
 								src={require(`../../assets/portfolio/${i}.jpg`)}
 								alt={project.title}
 								className="project-image"
 							/>
 						</div>
-						<div className="col-md-8">
+						<div className="col-md-7">
 							<div className="card-body">
 								<h5 className="card-title">{project.title}</h5>
 								<p class="card-text">{project.description}</p>

@@ -4,7 +4,7 @@ import avatar from "../../../assets/about/avatar.jpg";
 function About() {
 	return (
 		<main className="my-5">
-			<h2 id="about">About Me</h2>
+			<h2 className="about">About Me</h2>
 			<img src={avatar} className="avatar" alt="cover" />
 			<div className="about-me">
 				<p>

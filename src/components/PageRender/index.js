@@ -4,7 +4,6 @@ import About from "../pages/About";
 import Portfolio from "../pages/Portfolio";
 import Resume from "../pages/Resume";
 import Contact from "../pages/Contact";
-// import Header from "../Header";
 
 export default function PageRender() {
 	const [currentPage, setCurrentPage] = useState("Home");
