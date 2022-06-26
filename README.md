@@ -4,20 +4,17 @@
 
 I am an aspiring full-stack web developer. This is an updated portfolio designed using React.
 
-## Questions
+### Built With
+
+- JavaScript
+- HTML
+- CSS
 
 GitHub:
 <https://github.com/EvelynAguirreOrtiz>
 
 Project URL:
 <https://github.com/EvelynAguirreOrtiz/react-portfolio-challenge-utsa-bc-06-2022.git>
-
-### Built With
-
-- JavaScript
-- HTML
-- CSS
-- Bootstrap
 
 ### Website
 

@@ -24,7 +24,7 @@ function Resume() {
 				<br></br>
 				<h5>
 					Download my resume
-					<a href="#">here</a>
+					<a href="#">here . . .</a>
 				</h5>
 			</div>
 		</main>

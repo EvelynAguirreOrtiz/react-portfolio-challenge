@@ -41,7 +41,7 @@ function Contact() {
 
 	return (
 		<main>
-			<h2 data-testid="h1tag">For More Information . . . </h2>
+			<h2>For More Information . . . </h2>
 			<form className="form-group" id="contact-form" onSubmit={handleSubmit}>
 				<div className="form-box">
 					<input
@@ -78,7 +78,7 @@ function Contact() {
 						<p className="error-text">{errorMessage}</p>
 					</div>
 				)}
-				<button data-testid="button" className="contact-btn" type="submit">
+				<button className="contact-btn" type="submit">
 					Submit
 				</button>
 			</form>

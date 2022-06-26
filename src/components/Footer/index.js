@@ -17,9 +17,9 @@ function Footer() {
 						</button>
 					</a>
 
-					<a href="https://www.facebook.com/evelyn.aguirre.54966">
-						<button className="btn facebook">
-							<i className="bi bi-facebook"></i>
+					<a href="https://www.instagram.com/">
+						<button className="btn instagram">
+							<i className="bi bi-instagram"></i>
 						</button>
 					</a>
 				</section>
