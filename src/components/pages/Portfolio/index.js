@@ -4,7 +4,7 @@ import Project from "../../Project";
 function Portfolio() {
 	return (
 		<main>
-			<div className="card-header bg-primary text-white">My Projects</div>
+			<h2 className="portfolio">A Few of My Projects . . .</h2>
 			<Project />
 		</main>
 	);

@@ -41,10 +41,9 @@ function Contact() {
 
 	return (
 		<main>
-			<h2 data-testid="h1tag">Contact Me</h2>
+			<h2 data-testid="h1tag">For More Information . . . </h2>
 			<form className="form-group" id="contact-form" onSubmit={handleSubmit}>
 				<div className="form-box">
-					{/* <label htmlFor="name">Name:</label> */}
 					<input
 						className="input-text"
 						type="text"
@@ -55,7 +54,6 @@ function Contact() {
 					/>
 				</div>
 				<div className="form-box">
-					{/* <label htmlFor="email">Email Address:</label> */}
 					<input
 						className="input-text"
 						type="email"
@@ -66,7 +64,6 @@ function Contact() {
 					/>
 				</div>
 				<div className="form-box">
-					{/* <label htmlFor="message">Message:</label> */}
 					<textarea
 						className="input-text"
 						name="Your message"
@@ -81,7 +78,7 @@ function Contact() {
 						<p className="error-text">{errorMessage}</p>
 					</div>
 				)}
-				<button data-testid="button" type="submit">
+				<button data-testid="button" className="contact-btn" type="submit">
 					Submit
 				</button>
 			</form>

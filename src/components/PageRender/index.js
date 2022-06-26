@@ -18,9 +18,9 @@ export default function PageRender() {
 		if (currentPage === "Contact") {
 			return <Contact />;
 		}
-		if (currentPage === "About") {
-			return <About />;
-		}
+		// if (currentPage === "About") {
+		return <About />;
+		// }
 	};
 
 	const handlePageChange = (page) => setCurrentPage(page);

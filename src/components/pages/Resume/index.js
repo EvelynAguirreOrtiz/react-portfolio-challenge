@@ -2,7 +2,7 @@ import React from "react";
 
 function Resume() {
 	return (
-		<main className="my-5">
+		<main>
 			<h3 id="resume">My Resume</h3>
 
 			<div className="proficiencies">
@@ -21,7 +21,11 @@ function Resume() {
 					<li>MySql</li>
 					<li>MongoDB, Mongoose</li>
 				</ul>
-				<p>Download my resume [here]</p>
+				<br></br>
+				<h5>
+					Download my resume
+					<a href="#">here</a>
+				</h5>
 			</div>
 		</main>
 	);

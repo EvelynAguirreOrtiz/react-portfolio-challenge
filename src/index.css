@@ -4,62 +4,49 @@
 	font-family: "Montserrat", sans-serif;
 }
 
-:root {
-	--flickr-pink: #f72585ff;
-	--purple: #7209b7ff;
-	--trypan-blue: #3a0ca3ff;
-	--ultramarine-blue: #4361eeff;
-	--vivid-sky-blue: #4cc9f0ff;
-
-	/* SCSS Gradient */
-	--gradient-top: linear-gradient(
-		0deg,
-		#f72585ff,
-		#7209b7ff,
-		#3a0ca3ff,
-		#4361eeff,
-		#4cc9f0ff
-	);
-}
-
 body {
 	background-image: linear-gradient(
 		90deg,
-		#f72585ff,
-		#7209b7ff,
+		#0e0e0e,
+		#0e0e0e,
 		#3a0ca3ff,
-		#4361eeff,
-		#4cc9f0ff
+		#393939,
+		#3a0ca3ff,
+		#393939
 	);
 }
 
 main {
-	margin: auto;
-	max-width: 90%;
-	height: 70%vh;
-	padding: 50px 30px;
+	margin: 0;
+	padding: 150px;
 }
 
 /* header */
 
 header {
 	padding-top: 5vh;
-	/* border-bottom: 1px solid; */
 }
 
 header a {
-	font-size: 3rem;
+	font-size: 3.5rem;
+	font-weight: 400;
 	text-decoration: none;
 	margin-left: 2rem;
+	color: #7209b7ff;
 }
 
 header h4 {
 	font-size: 1.5rem;
 	margin-left: 2rem;
+	color: #3a0ca3ff;
 }
 
 a:hover {
-	text-decoration: none;
+	color: var(--purple);
+}
+
+nav ul {
+	border: none;
 }
 
 .nav {
@@ -76,13 +63,21 @@ nav li {
 }
 
 .nav-item {
-	margin-right: calc(2rem);
-	margin-left: calc(2rem);
+	margin-right: 2.5rem;
+	margin-left: 1rem;
+	margin-top: 1rem;
 }
 
-.nav-link {
+.nav-item a {
 	font-size: 15px;
 	font-weight: bolder;
+	margin: auto;
+	padding: auto;
+	color: white;
+}
+
+.nav-link active {
+	font-size: larger;
 }
 
 /* about */
@@ -95,11 +90,14 @@ nav li {
 
 h2,
 h3 {
-	padding-left: 2rem;
+	padding-left: 1rem;
+	padding-bottom: 2rem;
+	color: #4cc9f0ff;
 }
 
 .about-me {
 	padding: 3rem;
+	color: #c8c8c8;
 }
 
 /* portfolio */
@@ -108,19 +106,66 @@ h3 {
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 5px;
-	margin-left: 5rem;
+	margin-left: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 	padding: auto;
 	width: 300px;
 	height: 200px;
-
 	flex: auto;
 }
 
-/* portfolio card */
+.project-block {
+	display: flex;
+	flex-wrap: wrap;
+	outline: auto;
+	padding: 1rem;
+}
+
+.card-body {
+	flex-basis: auto;
+}
+
+.card-title {
+	color: #7209b7ff;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.card-text {
+	color: #0e0e0e;
+}
+
+@media screen and (max-width: 768) {
+	.project-image {
+		margin-left: 1rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		padding: auto;
+		max-width: 200px;
+		height: 100px;
+	}
+
+	.project-block {
+		outline: auto;
+		padding: 1rem;
+		min-width: 300px;
+	}
+}
+
+@media screen and (max-width: 575) {
+	.form-group input,
+	.form-group your-email,
+	.form-group textarea {
+		width: 10rem;
+	}
+}
 
 /* resume */
 .proficiencies {
 	text-align: left;
+	color: #e9e9e9;
+	margin-left: 4rem;
 }
 
 .proficiencies li {
@@ -133,7 +178,9 @@ form {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* padding: 10vh; */
+	max-width: calc(40rem);
+	background-color: white;
+	padding: 10vh;
 }
 
 .input-text {
@@ -143,40 +190,46 @@ form {
 .form-group input,
 .form-group your-email {
 	padding: 15px 20px;
+	flex: auto;
 }
 
 .form-group textarea {
 	padding: 30px 20px;
+	flex: auto;
 }
 
 .form-group input,
 .form-group textarea {
 	font-size: 15px;
 	font-weight: bold;
-	width: calc(25rem);
+	width: 25rem;
 	border: none;
 	border-bottom: 1px solid;
 }
 
 @media screen and (max-width: 768) {
 	.form-group input,
+	.form-group your-email,
 	.form-group textarea {
-		width: 400px;
+		width: calc(75%-30px);
 	}
 }
 @media screen and (max-width: 575) {
 	.form-group input,
+	.form-group your-email,
 	.form-group textarea {
-		width: 275px;
+		width: 10rem;
 	}
 }
 
 form button {
 	margin: auto;
 	border: 1px solid;
-	border-radius: 5px;
+	border-radius: 10px;
 	padding: 10px 20px;
 	margin-top: 10px;
+	background-color: #7209b7ff;
+	color: white;
 }
 
 .form-box {
@@ -185,16 +238,24 @@ form button {
 
 /* footer */
 footer {
-	/* margin: auto; */
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	position: inherit;
 	bottom: 0;
+	padding: 1rem;
 }
 
 .bi {
 	font-size: 30px;
-	margin-right: calc(2rem);
-	margin-left: calc(2rem);
+	margin-right: 2rem;
+	margin-left: 2rem;
+	color: white;
+}
+
+.bi:hover {
+	font-size: 50px;
+	margin-right: 2rem;
+	margin-left: 2rem;
+	color: #7209b7ff;
 }

@@ -4,47 +4,41 @@ function Project() {
 	const [projects] = useState([
 		{
 			title: "Meet Up SATX",
-			description:
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+			description: "JavaScript, HTML, CSS",
 			link: "https://meet-up-satx.herokuapp.com/",
 			github:
 				"https://github.com/EvelynAguirreOrtiz/meet-up-satx-utsa-bc-project-2.git",
 		},
 		{
 			title: "Search, Watch, Chill",
-			description:
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+			description: "JavaScript, HTML, CSS",
 			link: "https://archiedonaho.github.io/Search-Watch-Chill/",
 			github: "https://github.com/ArchieDonaho/Search-Watch-Chill.git",
 		},
 		{
 			title: "Budget Tracker PWA",
-			description:
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+			description: "JavaScript, HTML, CSS",
 			link: "https://desolate-chamber-00936.herokuapp.com/",
 			github:
 				"https://github.com/EvelynAguirreOrtiz/budget-tracker-challenge-utsa-bc-06-2022.git",
 		},
 		{
 			title: "Note Taker",
-			description:
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+			description: "Javascript, HTML, CSS",
 			link: "https://guarded-bastion-50474.herokuapp.com/",
 			github:
 				"https://github.com/EvelynAguirreOrtiz/notetaker-challenge-utsa-bc-04-2022.git",
 		},
 		{
 			title: "Weather Dashboard",
-			description:
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+			description: "JavaScript, HTML, CSS",
 			link: "https://evelynaguirreortiz.github.io/weather-dashboard-challenge-utsa-bc-03-2022/",
 			github:
 				"https://github.com/EvelynAguirreOrtiz/weather-dashboard-challenge-utsa-bc-03-2022.git",
 		},
 		{
 			title: "Work Day Scheduler",
-			description:
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+			description: "JavaScript, HTML, CSS",
 			link: "https://evelynaguirreortiz.github.io/work-day-scheduler-challenge-utsa-bc-03-2022/",
 			github:
 				"https://github.com/EvelynAguirreOrtiz/work-day-scheduler-challenge-utsa-bc-03-2022.git",
@@ -55,7 +49,7 @@ function Project() {
 		<div>
 			{projects.map((project, i) => (
 				<div className="card mb-3">
-					<div className="row g-0">
+					<div className="row g-0 project-block">
 						<div className="col-md-5">
 							<img
 								src={require(`../../assets/portfolio/${i}.jpg`)}
@@ -66,12 +60,12 @@ function Project() {
 						<div className="col-md-7">
 							<div className="card-body">
 								<h5 className="card-title">{project.title}</h5>
-								<p class="card-text">{project.description}</p>
+								<p className="card-text">{project.description}</p>
 								<a href={project.link} className="btn btn-outline-primary">
 									View Project
 								</a>
 								<a href={project.github} className="btn btn-outline-primary">
-									View GitHub Repository
+									View GitHub Repository <i className="bi-sm bi-github "></i>
 								</a>
 							</div>
 						</div>
