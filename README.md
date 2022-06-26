@@ -18,7 +18,7 @@ Project URL:
 
 ### Website
 
-https://evelynaguirreortiz.github.io/my-portfolio-utsa-bc-05-2022/
+https://evelynaguirreortiz.github.io/react-portfolio-challenge-utsa-bc-06-2022
 
 ![](./public/images/portfolio-screenshot.jpg)
 ![](./public/images/portfolio-screenshot2.jpg)
