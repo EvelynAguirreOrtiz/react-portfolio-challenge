@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-challenge-utsa-bc-06-2022/static/css/main.cc41a2b4.css",
+    "main.js": "/react-portfolio-challenge-utsa-bc-06-2022/static/js/main.9bc9412c.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio-challenge-utsa-bc-06-2022/static/js/787.a2cb61a6.chunk.js",
+    "static/media/0.jpg": "/react-portfolio-challenge-utsa-bc-06-2022/static/media/0.a3193c4d775c7709a62b.jpg",
+    "static/media/5.jpg": "/react-portfolio-challenge-utsa-bc-06-2022/static/media/5.616a3fce3fa3b7463e37.jpg",
+    "static/media/bootstrap-icons.woff?": "/react-portfolio-challenge-utsa-bc-06-2022/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
+    "static/media/2.jpg": "/react-portfolio-challenge-utsa-bc-06-2022/static/media/2.e089de8851b86021a769.jpg",
+    "static/media/4.jpg": "/react-portfolio-challenge-utsa-bc-06-2022/static/media/4.df6fba3aba464656008b.jpg",
+    "static/media/bootstrap-icons.woff2?": "/react-portfolio-challenge-utsa-bc-06-2022/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/1.jpg": "/react-portfolio-challenge-utsa-bc-06-2022/static/media/1.33090c4732228d82bfc9.jpg",
+    "static/media/3.jpg": "/react-portfolio-challenge-utsa-bc-06-2022/static/media/3.ed7e1d9ba9268099982e.jpg",
+    "static/media/avatar.jpg": "/react-portfolio-challenge-utsa-bc-06-2022/static/media/avatar.160b85847e37541fb14c.jpg",
+    "index.html": "/react-portfolio-challenge-utsa-bc-06-2022/index.html",
+    "main.cc41a2b4.css.map": "/react-portfolio-challenge-utsa-bc-06-2022/static/css/main.cc41a2b4.css.map",
+    "main.9bc9412c.js.map": "/react-portfolio-challenge-utsa-bc-06-2022/static/js/main.9bc9412c.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio-challenge-utsa-bc-06-2022/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc41a2b4.css",
+    "static/js/main.9bc9412c.js"
+  ]
+}
