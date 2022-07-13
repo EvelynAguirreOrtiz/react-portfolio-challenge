@@ -6,7 +6,7 @@ function Project() {
 			title: "Learn Your Marvel Characters",
 			description: "MERN Stack",
 			link: "https://boiling-headland-24136.herokuapp.com/",
-			github: "https://github.com/amhernandez1163/project-3-mern.git",
+			github: "https://github.com/amhernandez1163/lymc.git",
 		},
 		{
 			title: "Meet Up SATX",
