@@ -3,6 +3,12 @@ import React, { useState } from "react";
 function Project() {
 	const [projects] = useState([
 		{
+			title: "Learn Your Marvel Characters",
+			description: "MERN Stack",
+			link: "https://boiling-headland-24136.herokuapp.com/",
+			github: "https://github.com/amhernandez1163/project-3-mern.git",
+		},
+		{
 			title: "Meet Up SATX",
 			description: "JavaScript, HTML, CSS",
 			link: "https://meet-up-satx.herokuapp.com/",
@@ -55,6 +61,7 @@ function Project() {
 								src={require(`../../assets/portfolio/${i}.jpg`)}
 								alt={project.title}
 								className="project-image"
+								// key=
 							/>
 						</div>
 						<div className="col-md-7">

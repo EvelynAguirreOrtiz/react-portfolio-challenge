@@ -18,13 +18,20 @@ body {
 
 main {
 	margin: 0;
-	padding: 150px;
+	padding: 10%;
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+	display: block;
 }
 
 /* header */
 
 header {
 	padding-top: 5vh;
+	width: 100%;
 }
 
 header a {
@@ -106,12 +113,12 @@ h3 {
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 5px;
-	margin-left: 2rem;
+	/* margin-left: 2rem; */
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	padding: auto;
-	width: 300px;
-	height: 200px;
+	width: 350px;
+	height: 250px;
 	flex: auto;
 }
 
@@ -136,31 +143,6 @@ h3 {
 	color: #0e0e0e;
 }
 
-@media screen and (max-width: 768) {
-	.project-image {
-		margin-left: 1rem;
-		margin-top: 1rem;
-		margin-bottom: 1rem;
-		padding: auto;
-		max-width: 200px;
-		height: 100px;
-	}
-
-	.project-block {
-		outline: auto;
-		padding: 1rem;
-		min-width: 300px;
-	}
-}
-
-@media screen and (max-width: 575) {
-	.form-group input,
-	.form-group your-email,
-	.form-group textarea {
-		width: 10rem;
-	}
-}
-
 /* resume */
 .proficiencies {
 	text-align: left;
@@ -178,13 +160,19 @@ form {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	max-width: calc(40rem);
+	max-width: 80%;
 	background-color: white;
-	padding: 10vh;
+	padding: 10%;
 }
 
 .input-text {
 	text-align: left;
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+	border-bottom: 1px solid;
+	width: 30rem;
+	flex: auto;
 }
 
 .form-group input,
@@ -196,30 +184,6 @@ form {
 .form-group textarea {
 	padding: 30px 20px;
 	flex: auto;
-}
-
-.form-group input,
-.form-group textarea {
-	font-size: 15px;
-	font-weight: bold;
-	width: 25rem;
-	border: none;
-	border-bottom: 1px solid;
-}
-
-@media screen and (max-width: 768) {
-	.form-group input,
-	.form-group your-email,
-	.form-group textarea {
-		width: calc(75%-30px);
-	}
-}
-@media screen and (max-width: 575) {
-	.form-group input,
-	.form-group your-email,
-	.form-group textarea {
-		width: 10rem;
-	}
 }
 
 form button {
@@ -258,4 +222,59 @@ footer {
 	margin-right: 2rem;
 	margin-left: 2rem;
 	color: #7209b7ff;
+}
+
+@media screen and (max-width: 768) {
+	.form-group input,
+	.form-group your-email,
+	.form-group textarea {
+		width: calc(75%-30px);
+	}
+}
+@media screen and (max-width: 575) {
+	.form-group input,
+	.form-group your-email,
+	.form-group textarea {
+		width: 10rem;
+	}
+}
+
+@media screen and (max-width: 768) {
+	/* img {
+		max-width: 80%;
+	} */
+
+	.project-image {
+		margin-left: 1rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		padding: auto;
+		max-width: 200px;
+		height: 100px;
+	}
+
+	.project-block {
+		outline: auto;
+		padding: 1rem;
+		min-width: 300px;
+	}
+}
+
+@media screen and (max-width: 575) {
+	/* img {
+		max-width: 60%;
+	} */
+
+	.form-group input,
+	.form-group your-email,
+	.form-group textarea {
+		width: 10rem;
+	}
+}
+
+@media screen and (max-width: 375) {
+	.card {
+		padding: 1rem;
+		min-width: 300px;
+	}
 }
